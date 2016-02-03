@@ -1,0 +1,6 @@
+{% for image in __SELF__.images %}
+    <img src="{{ image.publicUrl | app }}"
+         class="image-{{ image.orientation }}"
+         alt=""
+     />
+{% endfor %}
