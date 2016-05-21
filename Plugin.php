@@ -19,7 +19,7 @@ class Plugin extends PluginBase
         return [
             'name'        => 'RandomImages',
             'description' => 'Display random images from your media library',
-            'author'      => 'OFFLINE',
+            'author'      => 'OFFLINE GmbH',
             'icon'        => 'icon-file-image-o'
         ];
     }
