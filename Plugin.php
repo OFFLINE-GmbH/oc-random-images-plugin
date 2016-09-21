@@ -35,6 +35,18 @@ class Plugin extends PluginBase
             'OFFLINE\RandomImages\Components\RandomImages' => 'randomImages',
         ];
     }
+    
+    /**
+     * Registers any static pages snippets.
+     *
+     * @return array
+     */
+    public function registerPageSnippets()
+    {
+        return [
+            'OFFLINE\RandomImages\Components\RandomImages' => 'randomImages',
+        ];
+    }
 
     /**
      * Registers any back-end permissions used by this plugin.
