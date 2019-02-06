@@ -2,7 +2,7 @@
 
 use Cms\Classes\CodeBase;
 use Cms\Classes\ComponentBase;
-use Cms\Classes\MediaLibrary;
+use System\Classes\MediaLibrary;
 use Config;
 use Illuminate\Support\Collection;
 

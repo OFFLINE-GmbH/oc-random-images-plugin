@@ -1,2 +1,3 @@
 1.0.1: First version of RandomImages
 1.0.2: Added support for Rainlab.Pages snippets
+1.0.3: Switched to System\Classes\MediaLibrary since Cms\Classes\MediaLibrary has been deprecated
