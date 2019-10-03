@@ -112,7 +112,7 @@ class RandomImages extends ComponentBase
                        ->shuffle();
 
         if ($this->property('limit')) {
-            $images->slice(0, (int)$this->property('limit'));
+	    $images = $images->slice(0, (int)$this->property('limit'));
         }
 
         $this->images = $images;
